@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación para convertir unidades de temperatura entre Celsius, Fahrenheit, Kelvin y Rankine.">
+    <meta name="author" content="Karsten Guillermo Gracia Palomino">
+    <title>Convertidor de Temperatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="theme-switch">
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+            <p>Cambiar Tema</p>
+        </div>
+        <h1>Convertidor de Temperatura</h1>
+        <img src="ICONO DE TEMPERATURA.png" alt="Icono de temperatura" class="decorative-image">
+        <div class="converter">
+            <div class="temperature-box">
+                <label for="celsiusInput">Celsius</label>
+                <input type="number" id="celsiusInput" placeholder="Celsius">
+            </div>
+            <div class="temperature-box">
+                <label for="fahrenheitInput">Fahrenheit</label>
+                <input type="number" id="fahrenheitInput" placeholder="Fahrenheit">
+            </div>
+            <div class="temperature-box">
+                <label for="kelvinInput">Kelvin</label>
+                <input type="number" id="kelvinInput" placeholder="Kelvin">
+            </div>
+            <div class="temperature-box">
+                <label for="rankineInput">Rankine</label>
+                <input type="number" id="rankineInput" placeholder="Rankine">
+            </div>
+        </div>
+        <div class="creator">
+            <p>Programa creado por Karsten Guillermo Gracia Palomino</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
